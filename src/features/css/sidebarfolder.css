@@ -1,0 +1,27 @@
+.Sidebarfolder {
+  display: flex;
+  align-items: center;
+  height: 35px;
+  width: 225px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding-left: 25px;
+  margin-right: 20px;
+}
+.Sidebarfolder--active {
+  background-color: #d3e3fd;
+}
+.Sidebarfolder:hover {
+  cursor: pointer;
+  background-color: whitesmoke;
+}
+.Sidebarfolder svg {
+  color: rgb(64, 62, 66);
+}
+
+.Sidebarfolder p {
+  font-size: 15px;
+  font-weight: 5px;
+  flex: 1;
+  margin-left: 15px;
+}

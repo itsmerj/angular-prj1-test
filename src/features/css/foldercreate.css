@@ -1,0 +1,45 @@
+.foldercreate {
+  width: 190px;
+  border: solid 1px gray;
+  border-radius: 15px;
+  margin-left: 10px;
+  background-color: #d3e3fd;
+}
+
+.folder-header {
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: solid 0.5px gray;
+  background-color: whitesmoke;
+  border-radius: 15px;
+}
+/* .folder-header svg{
+    margin-left: 20px;
+} */
+.folder-header p {
+  margin: 10px;
+}
+.foldercreate .folder-foter {
+  display: flex;
+  margin: 2px 0 3px 0;
+  justify-content: space-around;
+}
+button:hover {
+  cursor: pointer;
+}
+.foldercreate input {
+  margin: 0 3px 0 10px;
+  margin-bottom: 3px;
+  outline: 0;
+  border: 0;
+  border-radius: 5px;
+}
+.foldercreate button {
+  justify-content: center;
+  border-radius: 10px;
+}
+.foldercreate button:checked {
+  background-color: red;
+}

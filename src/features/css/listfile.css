@@ -1,0 +1,41 @@
+.listfile {
+  display: flex;
+  flex-direction: column;
+  max-width: 1260px;
+}
+.listfilesetting {
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  justify-content: space-between;
+  border-bottom: 1px solid whitesmoke;
+}
+.listfilesetting svg {
+  font-size: 18px;
+}
+.listbody {
+  display: flex;
+  flex-direction: column;
+  height: 40px;
+  margin-top: 18px;
+  margin-left: 10px;
+}
+.listbody .sp {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 400px;
+  border: 1px solid rgba(0, 0, 0, 0.217);
+  margin: 1px;
+}
+.listbody .sp:hover {
+  cursor: pointer;
+  background-color: azure;
+  box-shadow: 2px 2px 10px gray;
+}
+.flexing {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
