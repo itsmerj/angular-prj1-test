@@ -10,6 +10,8 @@
   top: 0;
   justify-content: space-between;
   border-bottom: 1px solid whitesmoke;
+  background-color: rgb(195, 210, 235);
+  border-radius: 5px;
 }
 .listfilesetting svg {
   font-size: 18px;
@@ -25,6 +27,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: space-around;
   width: 400px;
   border: 1px solid rgba(0, 0, 0, 0.217);
   margin: 1px;
@@ -38,4 +41,6 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+}
+.save {
 }

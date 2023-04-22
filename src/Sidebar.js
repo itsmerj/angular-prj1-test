@@ -4,10 +4,10 @@ import { Button } from "@material-ui/core";
 import Sidebarfolder from "./Sidebarfolder";
 import FolderIcon from "@material-ui/icons/Folder";
 import { useDispatch } from "react-redux";
-import { openCreateFolder } from "./features/mailslice";
+import { openCreateFolder } from "./mailslice";
 import CreateNewFolderIcon from "@material-ui/icons/CreateNewFolder";
 import { useSelector } from "react-redux";
-import { checkCreatefolderIsOpen } from "./features/mailslice";
+import { checkCreatefolderIsOpen } from "./mailslice";
 import Foldercreate from "./Foldercreate";
 
 function Sidebar() {

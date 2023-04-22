@@ -1,5 +1,5 @@
 import { configureStore } from "@reduxjs/toolkit";
-import mailreducer from "../features/mailslice";
+import mailreducer from "../mailslice";
 
 export const store = configureStore({
   reducer: {

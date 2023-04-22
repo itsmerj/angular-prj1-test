@@ -3,12 +3,19 @@ import CloseIcon from "@material-ui/icons/Close";
 import "./features/css/foldercreate.css";
 import { IconButton } from "@material-ui/core";
 import { useDispatch } from "react-redux";
-import { closeCreateFolder } from "./features/mailslice";
+import { closeCreateFolder } from "./mailslice";
+// import { db } from "./firebase";
 
 function Foldercreate() {
   const dispatch = useDispatch();
   const [to, setTo] = useState("");
-  function onsubmit() {}
+  const formSubmit = (e) => {
+    e.preventDefault();
+    if (to) {
+      console.log(to);
+      // db;
+    }
+  };
   return (
     <div className="foldercreate">
       <div className="folder-header">
@@ -21,7 +28,7 @@ function Foldercreate() {
           <CloseIcon />
         </IconButton>
       </div>
-      <form onSubmit={onsubmit()}>
+      <form onSubmit={formSubmit}>
         <div className="folder-body">
           <input
             placeholder="Folder name"

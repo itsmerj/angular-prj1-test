@@ -1,18 +1,21 @@
+import testcase from "./test.json";
 import React from "react";
 import "./features/css/listfile.css";
 import Listfilesetting from "./Listfilesetting";
 import Listbody from "./Listbody";
 
+let cases = testcase;
 function ListFile() {
+  function prin(e) {
+    alert();
+  }
   return (
     <div className="listfile">
       <Listfilesetting />
       <div className="flexing">
-        <Listbody name="ravi" />
-        <Listbody name="raveesh" />
-        <Listbody name="raveesh" />
-        <Listbody name="raveesh" />
-        <Listbody name="raveesh" />
+        {cases.map((e, i) => (
+          <Listbody name={e} ind={i} onClick={prin} />
+        ))}
       </div>
     </div>
   );
